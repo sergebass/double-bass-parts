@@ -43,6 +43,12 @@
             g4 b8. a16 g4 r
             g4 b8. a16 g4 r
             g4 b8. a16 g4 r
+            g'4 b8. a16 g4 r
+
+            a4 c8. b16 a4 r
+            d,4 fis8. e16 d4 fis
+            g4 r4 r2
+            r1
         }
     }
 }
