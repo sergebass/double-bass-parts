@@ -3,9 +3,9 @@
 \header {
     title = "Concerto Grosso Op. 6 No. 1"
     opus = "HWV 319"
-    composer = "Georg Frideric Händel"
+    composer = "Georg Friedrich Händel"
 
-    %instrument = "Basso Continuo"
+    instrument = "Basso Continuo"
 
     copyright = "Typeset by Sergii Perynskyi"
 }
@@ -29,7 +29,7 @@
 
     \new Staff {
 
-        \set Staff.instrumentName = #"Basso Continuo"
+        \set Staff.instrumentName = #"B.C."
         \set Staff.midiInstrument = #"Contrabass"
 
         \clef bass
@@ -80,6 +80,55 @@
 
             c4 bes a g
             fis!1 \fermata
+
+            \bar "|."
+        }
+    }
+}
+
+\score {
+
+    \layout {
+        \context {
+            \Voice
+            \consists "Ambitus_engraver"
+        }
+    }
+
+    \midi {
+        \tempo 4 = 90
+    }
+
+    \header {
+        piece = "Allegro"
+    } 
+
+    \new Staff {
+
+        \set Staff.instrumentName = #"B.C."
+        \set Staff.midiInstrument = #"Contrabass"
+
+        \clef bass
+        \key g \major
+        \time 4/4
+
+        \relative c {
+
+            g8 a b c d e fis d
+            g8 a b c d d, fis d
+            r1
+            r1
+
+            r1
+            r1
+            r1
+            r1
+
+            b8 g b c d e fis d
+            g8 a b c d4 d,4
+            r1
+            r1
+
             \bar "|."
         }
     }
