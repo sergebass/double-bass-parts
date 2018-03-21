@@ -68,9 +68,9 @@
             b4 r r2
             e4 gis8. fis16 e4 r
 
-            a,4 c'8.( b16) a8.( g16) fis8.( e16)
+            a,4 c'8.(\p b16) a8.( g16) fis8.( e16)
             d1
-            g4 bes8. a16 g4 r
+            g4\pp bes8. a16 g4 r
             g,4 bes8. a16 g4 r
 
             ees'4 g8. fis16 ees4 d4
@@ -79,7 +79,7 @@
             b4 b b b
 
             c4 bes a g
-            fis!1 \fermata
+            fis!1\fermata
 
             \bar "|."
         }
@@ -114,7 +114,7 @@
 
         \relative c {
 
-            g8 a b c d e fis d
+            g8\f a b c d e fis d
             g8 a b c d d, fis d
             r1
             r1
@@ -124,7 +124,7 @@
             r1
             r1
 
-            b8 g b c d e fis d
+            b8\f g b c d e fis d
             g8 a b c d4 d,4
             r1
             r1
@@ -136,7 +136,7 @@
 
             r1
             r1
-            fis'8 fis fis fis g g g g
+            fis'8\f fis fis fis g g g g
             gis8 gis gis gis a a a a
 
             ais8 ais ais ais b b b b
@@ -149,27 +149,27 @@
             fis8 d g d' e cis d g,
             a4 a, d r4
 
-            b'8 b b b c c c c
+            b'8\p b b b c c c c
             gis8 gis gis gis a a a a
             dis,8 dis dis dis e e e e
             ais,8 ais ais ais b4 r4
 
-            g'8 e g a b b, dis b
+            g'8\f e g a b b, dis b
             e8 fis g a b4 b,4
             r1
             r1
 
             r1
             r1
-            g8 a b c d e fis d
+            g8\f a b c d e fis d
             g8 a b c d d, d c
 
-            b8 b b b c c c c
+            b8\p b b b c c c c
             d8 d d d e e e e
             fis8 fis fis fis g g g g
             a8 a a a b b b b
 
-            b,8 b b b c c c c
+            b,8\f b b b c c c c
             cis8 cis cis cis d d d d
             dis8 dis dis dis e e e e
             fis8 fis fis fis g4 r4
@@ -177,7 +177,7 @@
             d8 fis g b, d4 r4
             d8 fis g b, d4 r4
             b8 g c g' a fis g c
-            d8 c d d, e4 \fermata r4
+            d8 c d d, e4\fermata r4
 
             fis4. fis8 g4 cis,4
             d4 d,4 g2
