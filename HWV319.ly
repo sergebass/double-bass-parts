@@ -25,7 +25,7 @@
 
     \header {
         piece = "A tempo giusto."
-    } 
+    }
 
     \new Staff {
 
@@ -101,7 +101,7 @@
 
     \header {
         piece = "Allegro"
-    } 
+    }
 
     \new Staff {
 
@@ -128,6 +128,24 @@
             g8 a b c d4 d,4
             r1
             r1
+
+            fis8 d fis g a b cis a
+            d,8 e fis g a a, cis a
+            r1
+            r1
+
+            r1
+            r1
+            fis'8 fis fis fis g g g g
+            gis8 gis gis gis a a a a
+
+            ais8 ais ais ais b b b b
+            cis,8 cis cis cis d d d d
+            e8 e e e fis fis fis fis
+            g8 g g g a4 r4
+
+            a8 cis d fis, a4 r4
+            a8 cis d fis, a4 r4
 
             \bar "|."
         }
