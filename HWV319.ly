@@ -146,6 +146,41 @@
 
             a8 cis d fis, a4 r4
             a8 cis d fis, a4 r4
+            fis8 d g d' e cis d g,
+            a4 a, d r4
+
+            b'8 b b b c c c c
+            gis8 gis gis gis a a a a
+            dis,8 dis dis dis e e e e
+            ais,8 ais ais ais b4 r4
+
+            g'8 e g a b b, dis b
+            e8 fis g a b4 b,4
+            r1
+            r1
+
+            r1
+            r1
+            g8 a b c d e fis d
+            g8 a b c d d, d c
+
+            b8 b b b c c c c
+            d8 d d d e e e e
+            fis8 fis fis fis g g g g
+            a8 a a a b b b b
+
+            b,8 b b b c c c c
+            cis8 cis cis cis d d d d
+            dis8 dis dis dis e e e e
+            fis8 fis fis fis g4 r4
+
+            d8 fis g b, d4 r4
+            d8 fis g b, d4 r4
+            b8 g c g' a fis g c
+            d8 c d d, e4 \fermata r4
+
+            fis4. fis8 g4 cis,4
+            d4 d,4 g2
 
             \bar "|."
         }
