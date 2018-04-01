@@ -188,3 +188,91 @@
         }
     }
 }
+
+\pageBreak
+
+\score {
+
+    \layout {
+        \context {
+            \Voice
+            \consists "Ambitus_engraver"
+        }
+    }
+
+    \midi {
+        \tempo 4 = 90
+    }
+
+    \header {
+        piece = "Adagio"
+    }
+
+    \new Staff {
+
+        \set Staff.instrumentName = #"B.C."
+        \set Staff.midiInstrument = #"Contrabass"
+
+        \clef bass
+        \key g \major
+        \time 3/4
+
+        \relative c {
+
+            e2 r4
+            r2.
+            r2.
+            r2.
+
+            r4 e'8 d c d
+            g,8 fis e a b b,
+            e8 d c\p b c d
+            g,8 fis e a b4
+
+            e,4 r r
+            r2.
+            e'4 b r
+            r2.
+
+            r2.
+            r2.
+            r4 b'8 a g a
+            d,8 cis b e fis fis,
+
+            g8 e fis4 fis
+            b2 r4
+            r2.
+            r2.
+
+            r2.
+            r2.
+            r2.
+            b'2.\f
+
+            c4 dis,2
+            e4 e'8 d c16( b16 a8)
+            r4 d8 c b16( a16 g8)
+            r4 c8 b a16( g16 fis8)
+
+            r4 b,8 cis dis16( e16 fis8)
+            r4 e8 fis g16( a16 b8)
+            r4 a8 b c16( d16 e8)
+            d4 c2
+
+            b4 fis8 e dis16 cis16 b8
+            e4 e'8 d c d
+            g,8 fis e a b b,
+            e8 d c\p b c d
+
+            g,8 fis e a b b
+            c,2.\fermata
+
+            r4 cis'4.\f\trill b16 a16
+            d2.
+            r4 e4.\p\trill d8
+            d2.
+
+            \bar "|."
+        }
+    }
+}
