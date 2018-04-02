@@ -102,7 +102,7 @@
     }
 
     \header {
-        piece = "Allegro"
+        piece = "Allegro (1)"
     }
 
     \new Staff {
@@ -271,6 +271,66 @@
             d2.
             r4 e4.\p\trill d8
             d2.
+
+            \bar "|."
+        }
+    }
+}
+
+\pageBreak
+
+\score {
+
+    \layout {
+        \context {
+            \Voice
+            \consists "Ambitus_engraver"
+        }
+    }
+
+    \midi {
+        \tempo 4 = 90
+    }
+
+    \header {
+        piece = "Allegro (2)"
+    }
+
+    \new Staff {
+
+        \set Staff.instrumentName = #"B.C."
+        \set Staff.midiInstrument = #"Contrabass"
+
+        \clef bass
+        \key g \major
+        \time 4/4
+
+        \relative c {
+
+            r1
+            r1
+            r1
+            r1
+
+            r1
+            r1
+            r1
+            r1
+
+            g'4\f d b4. c16 d16
+            e8 e e fis16 e16 d4. e16 fis16
+            g8 g g a16 g16 fis8 d e b
+            c4 d g, r8 e'8
+
+            a,4 d g, e'
+            a,4 d g fis
+            e4 a d, b'
+            e,4 a d, r
+
+            r4 g8 fis8 e4 e,
+            r4 fis'8 e8 d4 d,
+            r4 e''8 d8 cis4 cis,
+            d4 r4 r2
 
             \bar "|."
         }
