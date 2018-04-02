@@ -332,6 +332,36 @@
             r4 e''8 d8 cis4 cis,
             d4 r4 r2
 
+            r1
+            r1
+            r4 d' b cis
+            d4 r r2
+
+            r1
+            r1
+            r4 b e, a
+            d4 a fis r
+
+            d'4 a fis4. g16 a16
+            b8 b b cis16 b16 cis8 a d g,
+            a4 a, b r8 b8
+            c8 a d c b4 r8 e8
+
+            c8 a d c b4 r8 e8
+            c8 a d c b4 r4
+            r1
+            r1
+
+            r1
+            r1
+            g4 b d4. e16 fis16
+            g8 g g a16 g16 fis4. e8
+
+            d4. c8 b a g fis
+            e4 fis g b
+            e2 d4 b'
+
+
             \bar "|."
         }
     }
