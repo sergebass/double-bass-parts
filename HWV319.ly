@@ -411,3 +411,41 @@
         }
     }
 }
+
+\pageBreak
+
+\score {
+
+    \layout {
+        \context {
+            \Voice
+            \consists "Ambitus_engraver"
+        }
+    }
+
+    \midi {
+        \tempo 4 = 90
+    }
+
+    \header {
+        piece = "Allegro (3)"
+    }
+
+    \new Staff {
+
+        \set Staff.instrumentName = #"B.C."
+        \set Staff.midiInstrument = #"Contrabass"
+
+        \clef bass
+        \key g \major
+        \time 6/8
+
+        \relative c {
+            \repeat volta 2 {
+            }
+
+            \repeat volta 2 {
+            }
+        }
+    }
+}
