@@ -360,7 +360,52 @@
             d4. c8 b a g fis
             e4 fis g b
             e2 d4 b'
+            e,4 e'd g,
 
+            c,4 c'( c) b
+            a4 d, g r
+            r1
+            r1
+
+            r2 r4 b,4
+            c2 d2
+            e2 fis2
+            g2 a2
+
+            b2 c2
+            d4 d,8 e fis g a fis
+            g4 r4 r2
+            r2 g4 d4
+
+            b4 r4 r2
+            r1
+            g4 b d4. e16 fis16
+            b8 b b c16 b16 a4 g4
+
+            d'4 d, g d
+            b4 r g' fis
+            e2 d4 d'4
+            c4 c, b8 a b c
+
+            d4 d, e e'
+            a,4 d g e
+            a,4 d g r
+            r4 c,8 b8 a4 r4
+
+            r4 b8 a8 g4 r4
+            r4 a8 g8 fis4 r4
+            r4 g8 a8 b4 g4
+            c4 a8 b8 c4 a4
+
+            d4 b8 c8 d4 b4
+            e4 c8 d8 e4 a,4
+            d4 d' b d,
+            e4 fis g8 fis e d
+
+            c8 b a g fis4 r4
+            r2\fermata r4 r8 g'8\pp
+            e8 d e fis g4 c,4
+            d4 d, g r
 
             \bar "|."
         }
