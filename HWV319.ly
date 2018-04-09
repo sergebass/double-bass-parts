@@ -442,6 +442,35 @@
 
         \relative c {
             \repeat volta 2 {
+                g8 g' fis e g c
+                b8 a g c fis, r
+                g8 b g c c, r
+                d8 fis, g d'4 r8
+
+                r2.
+                d8 g fis g d r
+                r2.
+                d8 g fis g d r
+
+                cis8-.( cis-. cis-.) d-.( d-. d-.)
+                cis8-.( cis-. cis-.) d-.( d-. d-.)
+                dis8-.( dis-. dis-.) e-.( e-. e-.)
+                a8 a a d, d d
+
+                b8 b b b b b
+                gis'8 gis gis a a a
+                cis,8 cis cis d d d
+                g8 a a, d d e
+
+                fis4 e8 d4 e8
+                fis4 e8 d4 e8
+                fis4 r8 r4.
+                d4 r8 r4.
+
+                b'8 cis4 d8 fis, b
+                g8 a a, d4 r8
+                d8 e e fis e d
+                g8 a a, d4.
             }
 
             \repeat volta 2 {
