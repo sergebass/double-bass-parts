@@ -474,6 +474,35 @@
             }
 
             \repeat volta 2 {
+                d8 d' cis b a g
+                fis8 e d g cis, r
+                d8 cis b a a' a
+                cis,8 cis d a4 r8
+
+                r2.
+                d8 g fis g d r
+                r2.
+                g8 c b c g r
+
+                b,8 b b c c c
+                d8 d d g g g
+                gis8 gis gis a a a
+                d,8 d d g g g
+
+                e8 e e e e e
+                a8 a a d d d
+                fis,8 fis fis g g g
+                c8 d d, g g a
+
+                b4 a8 g4 a8
+                b4 a8 g4 a8
+                b4 r8 r4.
+                g4 r8 r4.
+
+                g8 c, c' d fis, g
+                c8 d d, g4 r8
+                g,8 a a' b a g
+                c,8 d d, g4.\fermata
             }
         }
     }
